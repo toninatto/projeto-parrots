@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+.tela-desktop {
+   width: 1110px;
+    background-color: #EEF9BF;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 122px;
+    padding-right: 116px;
+    padding-top: 40px;
+    box-sizing: border-box;
+}
+h1 {
+    font-family: 'roboto';
+    font-style: bold;
+    font-weight: 700;
+    font-size: 56px;
+    color: #75B79E;
+   
+    
+}
+.titulo {
+    width: 540px;
+    height: 63px;
+    margin-left: 163px;
+    margin-bottom: 13px;
+}
+.caixa-cartas {
+    width: 872px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 153px;
+    
+}
+.cartas {
+    width: 117px;
+    height: 146px;
+    background-color: #A7E9AF;
+    border-radius: 5px;
+    margin: 17px;
+}
+.cartas img {
+    width: 100px;
+    height: 100px;
+    margin-left: 10px;
+    margin-top: 24px;
+}
+@media (max-width: 500px) {
+    .tela-desktop {
+        width: 335px;
+        background-color: #EEF9BF;
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-top: 40px;
+        box-sizing: border-box;
+        }
+    h1 {
+    
+    font-size: 36px;
+    text-align: center;
+    
+    }
+    .titulo {
+        width: 312px;
+        margin-left: 12px;
+        margin-bottom: 47px;
+        
+    }
+    .caixa-cartas {
+        width: 195px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: flex-start;
+        margin-bottom: 50px;
+        margin-left: 70px;
+        box-sizing: border-box;
+    }
+        .cartas {
+            
+            margin-top: 34px;
+}
